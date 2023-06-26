@@ -107,5 +107,23 @@ body {
 
 .names {
     font-size: 1.55rem;
+    color:#fff;
 }
 
+.center {
+    justify-content: center;
+}
+
+.float {
+display: inline-block;
+    float: unset;
+    width:400px;
+    margin-right: 20px;
+
+}
+.ppp {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+
+}
