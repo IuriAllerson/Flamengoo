@@ -114,16 +114,49 @@ body {
     justify-content: center;
 }
 
-.float {
-display: inline-block;
-    float: unset;
-    width:400px;
-    margin-right: 20px;
+
+
+.table {
+    font-size: 1.55rem;
+    color: #fff;
+    justify-content: center;
+    display: inline-block;}
+
+.table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background-color: lightgray;
+
 
 }
-.ppp {
-    text-align: center;
-    color: #fff;
-    font-size: 2rem;
 
+.table th,
+.table td {
+    padding: 10px;
+    border: 2px #fff;
+    background-color: white;
+    color: black;
+}
+
+.float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+
+}
+
+.ppp {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 10vh;
+}
+
+.pp {
+    background-color: #ff0202;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
